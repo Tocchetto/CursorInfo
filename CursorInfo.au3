@@ -74,9 +74,9 @@ While 1
 	
 	if not $g_bFrozen Then
 		$g_aCursorPos = MouseGetPos()
-		$g_sColorInfo = PixelGetColor($g_aCursorPos[0], $g_aCursorPos[1])
+		$g_sColorInfo = PixelGetColor($g_aCursorPos[0], $g_aCursorPos[1],6)
 		
-		GUICtrlSetData($inptColorInfo, $g_sColorInfo)
+		GUICtrlSetData($inptColorInfo, Hex($g_sColorInfo))
 		GUICtrlSetBkColor($grphCursorColor, $g_sColorInfo)
 		GUICtrlSetData($inptXYInfo, $g_aCursorPos[0]+1 & "," & $g_aCursorPos[1]+1)
 		GUICtrlSetData($inptCursorXCurrentPos, $g_aCursorPos[0]+1)
