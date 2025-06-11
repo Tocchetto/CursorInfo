@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <object type="TAForm" name="Form2">
 	<properties>
-		<property name="Left" vt="Int16">1014</property>
-		<property name="Top" vt="Int16">388</property>
-		<property name="Width" vt="Int16">258</property>
-		<property name="Height" vt="Int16">232</property>
+		<property name="Left" vt="Int16">401</property>
+		<property name="Top" vt="Int16">209</property>
+		<property name="Width" vt="Int16">268</property>
+		<property name="Height" vt="Int16">321</property>
 		<property name="Caption" vt="String">CursorInfo</property>
 		<property name="Color" vt="Ident">clBtnFace</property>
 		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
@@ -34,8 +34,8 @@
 		<object type="TAGraphic" name="grphCursorColor">
 			<properties>
 				<property name="Left" vt="Int8">68</property>
-				<property name="Top" vt="Int8">18</property>
-				<property name="Width" vt="Int8">12</property>
+				<property name="Top" vt="Int8">56</property>
+				<property name="Width" vt="Int8">76</property>
 				<property name="Height" vt="Int8">12</property>
 				<property name="AutoSize" vt="False">False</property>
 				<property name="Color" vt="Ident">clMenu</property>
@@ -54,7 +54,7 @@
 		<object type="TALabel" name="lblColorInfo">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int8">14</property>
+				<property name="Top" vt="Int8">54</property>
 				<property name="Width" vt="Int8">63</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">Cursor color:</property>
@@ -69,8 +69,8 @@
 		<object type="TAInput" name="inptColorInfo">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int8">34</property>
-				<property name="Width" vt="Int8">73</property>
+				<property name="Top" vt="Int8">74</property>
+				<property name="Width" vt="Int16">137</property>
 				<property name="Height" vt="Int8">21</property>
 				<property name="TabOrder" vt="Int8">2</property>
 				<property name="CtrlStyle" vt="Int32">1342374016</property>
@@ -82,7 +82,7 @@
 		<object type="TALabel" name="lblFreezeInfo">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int16">132</property>
+				<property name="Top" vt="Int16">220</property>
 				<property name="Width" vt="Int16">170</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">1. ctrl+alt+f to freeze/unfreeze data</property>
@@ -97,7 +97,7 @@
 		<object type="TALabel" name="lblCursorXCurrentPos">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int8">64</property>
+				<property name="Top" vt="Int16">152</property>
 				<property name="Width" vt="Int8">14</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">X:</property>
@@ -112,7 +112,7 @@
 		<object type="TAInput" name="inptCursorXCurrentPos">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int8">84</property>
+				<property name="Top" vt="Int16">172</property>
 				<property name="Width" vt="Int8">72</property>
 				<property name="Height" vt="Int8">21</property>
 				<property name="TabOrder" vt="Int8">5</property>
@@ -126,7 +126,7 @@
 		<object type="TALabel" name="lblCursorYCurrentPos">
 			<properties>
 				<property name="Left" vt="Int16">128</property>
-				<property name="Top" vt="Int8">64</property>
+				<property name="Top" vt="Int16">152</property>
 				<property name="Width" vt="Int8">14</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">Y:</property>
@@ -141,7 +141,7 @@
 		<object type="TAInput" name="inptCursorYCurrentPos">
 			<properties>
 				<property name="Left" vt="Int16">128</property>
-				<property name="Top" vt="Int8">84</property>
+				<property name="Top" vt="Int16">172</property>
 				<property name="Width" vt="Int8">64</property>
 				<property name="Height" vt="Int8">21</property>
 				<property name="TabOrder" vt="Int8">7</property>
@@ -154,9 +154,9 @@
 		</object>
 		<object type="TAInput" name="inptXYInfo">
 			<properties>
-				<property name="Left" vt="Int16">128</property>
-				<property name="Top" vt="Int8">34</property>
-				<property name="Width" vt="Int8">65</property>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">122</property>
+				<property name="Width" vt="Int8">73</property>
 				<property name="Height" vt="Int8">21</property>
 				<property name="TabOrder" vt="Int8">8</property>
 				<property name="Text" vt="String">0,0</property>
@@ -168,8 +168,8 @@
 		</object>
 		<object type="TALabel" name="Label1">
 			<properties>
-				<property name="Left" vt="Int16">128</property>
-				<property name="Top" vt="Int8">16</property>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">104</property>
 				<property name="Width" vt="Int8">24</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">X,Y:</property>
@@ -183,8 +183,8 @@
 		</object>
 		<object type="TAButton" name="btnCopyCursorColor">
 			<properties>
-				<property name="Left" vt="Int8">88</property>
-				<property name="Top" vt="Int8">32</property>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int8">76</property>
 				<property name="Width" vt="Int8">35</property>
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">Copy</property>
@@ -198,8 +198,8 @@
 		</object>
 		<object type="TAButton" name="btnCopyCursorXYPos">
 			<properties>
-				<property name="Left" vt="Int16">198</property>
-				<property name="Top" vt="Int8">32</property>
+				<property name="Left" vt="Int8">86</property>
+				<property name="Top" vt="Int8">120</property>
 				<property name="Width" vt="Int8">35</property>
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">Copy</property>
@@ -214,7 +214,7 @@
 		<object type="TAButton" name="btnCopyCursorXPos">
 			<properties>
 				<property name="Left" vt="Int8">86</property>
-				<property name="Top" vt="Int8">83</property>
+				<property name="Top" vt="Int16">171</property>
 				<property name="Width" vt="Int8">35</property>
 				<property name="Height" vt="Int8">24</property>
 				<property name="Caption" vt="String">Copy</property>
@@ -229,7 +229,7 @@
 		<object type="TAButton" name="btnCopyCursorYPos">
 			<properties>
 				<property name="Left" vt="Int16">198</property>
-				<property name="Top" vt="Int8">83</property>
+				<property name="Top" vt="Int16">171</property>
 				<property name="Width" vt="Int8">35</property>
 				<property name="Height" vt="Int8">24</property>
 				<property name="Caption" vt="String">Copy</property>
@@ -244,8 +244,8 @@
 		<object type="TAStatusBar" name="stsbContent">
 			<properties>
 				<property name="Left" vt="Int8">0</property>
-				<property name="Top" vt="Int16">174</property>
-				<property name="Width" vt="Int16">242</property>
+				<property name="Top" vt="Int16">263</property>
+				<property name="Width" vt="Int16">252</property>
 				<property name="Height" vt="Int8">19</property>
 				<property name="Panels" vt="Collection">
 					<collection/>
@@ -259,7 +259,7 @@
 		<object type="TALabel" name="Label2">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int8">112</property>
+				<property name="Top" vt="Int16">200</property>
 				<property name="Width" vt="Int8">55</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">HotKeys:</property>
@@ -280,7 +280,7 @@
 		<object type="TALabel" name="lblObjectInfo">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int16">152</property>
+				<property name="Top" vt="Int16">240</property>
 				<property name="Width" vt="Int16">155</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">2. alt+a to get object information</property>
@@ -289,6 +289,79 @@
 				<property name="CtrlStyle" vt="Int32">1342308608</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label3">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int8">65</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">Window title:</property>
+				<property name="TabOrder" vt="Int8">17</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAInput" name="InptWindowTitle">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">24</property>
+				<property name="Width" vt="Int16">185</property>
+				<property name="Height" vt="Int8">21</property>
+				<property name="TabOrder" vt="Int8">18</property>
+				<property name="CtrlStyle" vt="Int32">1342374016</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="btnCopyWindowTitle">
+			<properties>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int8">24</property>
+				<property name="Width" vt="Int8">35</property>
+				<property name="Height" vt="Int8">25</property>
+				<property name="Caption" vt="String">Copy</property>
+				<property name="TabOrder" vt="Int8">19</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TARadio" name="btnRGB">
+			<properties>
+				<property name="Left" vt="Int16">152</property>
+				<property name="Top" vt="Int8">72</property>
+				<property name="Width" vt="Int8">49</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">RGB</property>
+				<property name="TabOrder" vt="Int8">20</property>
+				<property name="CtrlStyle" vt="Int32">1342242825</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TARadio" name="btnHex">
+			<properties>
+				<property name="Left" vt="Int16">152</property>
+				<property name="Top" vt="Int8">88</property>
+				<property name="Width" vt="Int8">41</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">Hex</property>
+				<property name="Checked" vt="True">True</property>
+				<property name="TabOrder" vt="Int8">21</property>
+				<property name="TabStop" vt="True">True</property>
+				<property name="CtrlStyle" vt="Int32">1342242825</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
 			</properties>
 			<components/>
 		</object>
